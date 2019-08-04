@@ -14,6 +14,7 @@ class Collection extends \Magento\Framework\Model\ResourceModel\Db\Collection\Ab
 	 */
 	protected function _construct()
 	{
+		//Khởi tạo thu thập tài nguyên tiêu chuẩn
 		$this->_init('AHT\Blog\Model\Post', 'AHT\Blog\Model\ResourceModel\Post');
 	}
 }
